@@ -1,0 +1,9 @@
+### update a Todo ###
+PUT http://localhost:3000/todos/2
+
+{
+      "title": "jiang さんの入社手続き",
+      "targetDateTitle": "入社予定日",
+      "targetDate": "2020-01-01",
+      "state": "completed"
+}

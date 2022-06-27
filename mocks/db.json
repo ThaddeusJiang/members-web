@@ -1,0 +1,173 @@
+{
+  "procedures": [
+    {
+      "id": 1,
+      "title": "入社手続き",
+      "description": "新入社員が入社するときの手続き"
+    },
+    {
+      "id": 2,
+      "title": "退職の手続き",
+      "description": "従業員が退職するときの手続き"
+    },
+    {
+      "id": 3,
+      "title": "扶養追加の手続き",
+      "description": "結婚、出産、配偶者が退職したときなど"
+    }
+  ],
+  "todos": [
+    {
+      "id": "1",
+      "title": "jiang さんの入社手続き",
+      "targetDateTitle": "入社予定日",
+      "targetDate": "2020-01-01",
+      "state": "inProgress",
+      "rateOfProgress": "3/7"
+    },
+    {
+      "id": "2",
+      "title": "jifa さんの入社手続き",
+      "targetDateTitle": "入社予定日",
+      "targetDate": "2020-01-01",
+      "state": "completed",
+      "rateOfProgress": "7/7"
+    },
+    {
+      "id": "3",
+      "title": "jiang jifa さんの入社手続き",
+      "targetDateTitle": "入社予定日",
+      "targetDate": "2020-01-01",
+      "state": "completed",
+      "rateOfProgress": "14/14"
+    },
+    {
+      "id": "4",
+      "title": "TJ さんの入社手続き",
+      "targetDateTitle": "入社予定日",
+      "targetDate": "2020-01-01",
+      "state": "inProgress",
+      "rateOfProgress": "3/7"
+    }
+  ],
+  "procedure_requests": [
+    {
+      "id": "1",
+      "memberId": "1",
+      "targetDateTitle": "入社予定日",
+      "targetDate": "2020-01-01"
+    },
+    {
+      "id": "2",
+      "memberId": "2",
+      "targetDateTitle": "入社予定日",
+      "targetDate": "2020-01-01"
+    },
+    {
+      "id": "3",
+      "memberId": "3",
+      "targetDateTitle": "入社予定日",
+      "targetDate": "2020-01-01"
+    },
+    {
+      "id": "4",
+      "targetMember": {
+        "id": "4",
+        "name": "TJ"
+      },
+      "targetDateTitle": "入社予定日",
+      "targetDate": "2020-01-01"
+    }
+  ],
+  "members": [
+    {
+      "id": "1",
+      "name": "jiang",
+      "procedures": ["boarding"]
+    },
+    {
+      "id": "2",
+      "name": "jifa",
+      "procedures": ["boarding"]
+    },
+    {
+      "id": "3",
+      "name": "jiang jifa",
+      "procedures": []
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "feature": "account",
+      "level": "info",
+      "messages": [
+        {
+          "label": "入力を依頼していた "
+        },
+        {
+          "label": "jiang jifa の入社手続き",
+          "important": true
+        },
+        {
+          "label": " が提出されました"
+        }
+      ],
+      "createdAt": "2020-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "feature": "account",
+      "level": "info",
+      "messages": [
+        {
+          "label": "入力を依頼していた "
+        },
+        {
+          "label": "jiang jifa の入社手続き",
+          "important": true
+        },
+        {
+          "label": " が提出されました"
+        }
+      ],
+      "createdAt": "2020-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "feature": "account",
+      "level": "info",
+      "messages": [
+        {
+          "label": "入力を依頼していた "
+        },
+        {
+          "label": "jiang jifa の入社手続き",
+          "important": true
+        },
+        {
+          "label": " が提出されました"
+        }
+      ],
+      "createdAt": "2020-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "feature": "account",
+      "level": "info",
+      "messages": [
+        {
+          "label": "入力を依頼していた "
+        },
+        {
+          "label": "jiang jifa の入社手続き",
+          "important": true
+        },
+        {
+          "label": " が提出されました"
+        }
+      ],
+      "createdAt": "2020-01-01T00:00:00.000Z"
+    }
+  ]
+}

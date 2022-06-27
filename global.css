@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header2 {
+    @apply label text-2xl;
+}
+
+.main-container {
+    @apply container max-w-screen-md;
+}
